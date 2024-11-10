@@ -2,7 +2,7 @@
 
 public class Makanan {
 
-    // Todo : Create private attribute of Makanan (nama, jumlah, and harga)
+    // Todo : Create private attribute of Makanan (nama, jumlah, and harga) 
     private String nama;
     private int jumlah;
     private double harga;
