@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TableView layoutX="14.0" layoutY="75.0" prefHeight="246.0" prefWidth="298.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="Album name" />
+          <TableColumn prefWidth="75.0" text="Artist" />
+            <TableColumn prefWidth="75.0" text="Available" />
+            <TableColumn prefWidth="75.0" text=" Total" />
+        </columns>
+      </TableView>
+      <TextField layoutX="328.0" layoutY="103.0" prefHeight="26.0" prefWidth="251.0" />
+      <Label layoutX="328.0" layoutY="75.0" text="Judul album" />
+      <Label layoutX="329.0" layoutY="140.0" text="Nama Artist" />
+      <TextField layoutX="328.0" layoutY="162.0" prefHeight="26.0" prefWidth="251.0" />
+      <Label layoutX="329.0" layoutY="200.0" text="Jumlah Total" />
+      <TextField layoutX="328.0" layoutY="223.0" prefHeight="26.0" prefWidth="251.0" />
+      <Label layoutX="329.0" layoutY="258.0" text="Jumlah Rented" />
+      <TextField layoutX="328.0" layoutY="284.0" prefHeight="26.0" prefWidth="251.0" />
+      <Button layoutX="302.0" layoutY="333.0" mnemonicParsing="false" text="Hapus" />
+      <Button layoutX="528.0" layoutY="333.0" mnemonicParsing="false" text="Update" />
+      <Button layoutX="380.0" layoutY="333.0" mnemonicParsing="false" text="Tambah" />
+      <Button layoutX="27.0" layoutY="333.0" mnemonicParsing="false" text="Rent Selected" />
+      <TextField prefHeight="35.0" prefWidth="600.0" text="Zeppeli's Listening bar" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="17.0" layoutX="533.0" layoutY="10.0" stroke="BLACK" strokeType="INSIDE" width="24.0" />
+      <Label layoutX="573.0" layoutY="6.0" text="X">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
